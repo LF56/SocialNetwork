@@ -5,7 +5,7 @@ const {
   createUser,
   updateUser,
   deleteUser
-} = require('../../controllers/user-controller');
+} = require("../../controllers/user-controller");
 
 
 router
@@ -19,4 +19,4 @@ router
   .put(updateUser)
   .delete(deleteUser);
 
-module.exports = router;
+module.exports = userController;
