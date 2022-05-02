@@ -1,7 +1,6 @@
-const { Schema, model } = require('mongoose');
+const { Schema, model, Types } = require('mongoose');
 //require date format file
 const dateFormat = require("../utils/dateFormat");
-
 
 //reaction schema
 const reactionSchema = new Schema(
