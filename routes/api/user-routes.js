@@ -17,6 +17,8 @@ router
   .route('/:id')
   .get(getUserById)
   .put(updateUser)
-  .delete(deleteUser);
+  .delete(deleteUser)
+  // .route('/friends/:id')
+  // .post()
 
-module.exports = userController;
+module.exports = router;
